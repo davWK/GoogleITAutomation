@@ -1,5 +1,5 @@
 
-#####################OPERATION FUNCTION#################################
+#OPERATIONS FUNCTION
 def process():
     guest_list = []
     guest_num = int(input("How many guests will you proceed ? "))
@@ -12,7 +12,7 @@ def process():
 
 
 
-######################REGISTER NEW GUESTS###############################""
+#REGISTER NEW GUESTS
 #fill a file with the list returned by process function  content
 def sign_in():
     new_guests = process()
@@ -23,7 +23,7 @@ def sign_in():
 
 
 
-##############REMOVE GUESTS WHO ARE LEAVING IN GUESTS LIST################
+#REMOVE GUESTS WHO ARE LEAVING IN GUESTS LIST
 def sign_out():
     check_out_guests = process()
     temporary_list = []
@@ -38,7 +38,7 @@ def sign_out():
 
 
 
-##############VERIFY IF GUESTS ARE STILL IN  HOTEL##########################
+#VERIFY IF GUESTS ARE STILL IN  HOTEL
 def checking():
     guests_to_check = process()
     checked_in = []
@@ -54,7 +54,7 @@ def checking():
 
 
 
-#############################CHOOSE WHAT TO DO###################################
+#CHOOSE WHAT TO DO
 to_do = int(input("What do you want to do ? \nPlease choose \n(1) for guests registration \n(2) for guests unsubscription \n(3) for guests checking \nEnter your choice : "))
 if to_do == 1:
     sign_in()
