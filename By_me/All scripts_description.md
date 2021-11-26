@@ -1,10 +1,12 @@
-#All scripts descriptions
+# All scripts descriptions
 
-##system_checks.py
+## system_checks.py
+
 **Purpose** : Script to check system states (disks, cpu_usage, etc.)
 
 
-##hotels_guests_management.py
+## hotels_guests_management.py
+
 **Purpose** : Program to record guests at hotel :
     - Register new guests
     - Remove leaving guests
