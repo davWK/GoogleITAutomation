@@ -3,7 +3,7 @@
 def process():
     guest_list = []
     guest_num = int(input("How many guests will you proceed ? "))
-    i = 0
+    i = 1
     while i <= guest_num:
         guest_name = str(input("Input the guest {} exact name: ".format(i)))
         guest_list.append(guest_name)

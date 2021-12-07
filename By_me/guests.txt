@@ -2,3 +2,7 @@ le
 li
 tree
 four
+kokou
+adjo
+adam
+eve
