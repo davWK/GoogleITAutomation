@@ -1,0 +1,3 @@
+kokou,togo,tech
+abla,ghana,sale
+john,benin,check_out_guests
