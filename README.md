@@ -24,7 +24,6 @@ Here are all the codes I write during my IT automation learning journey.
 
 - Verify currently chech in guests
 
-- Checked out guests block code explanation
 
 
 ### Explain :  code that remove the guests that have checked out already
@@ -37,3 +36,5 @@ Here are all the codes I write during my IT automation learning journey.
 ## generate_employee.py
 
 **Purpose** : The script reads a CSV file containing a list of employees in  organization, counts how many people are in each department, and then generates a report using this information.
+
+**Highlight** : working with csv file
