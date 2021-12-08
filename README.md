@@ -34,6 +34,6 @@ Here are all the codes I write during my IT automation learning journey.
 *Open the file once again in "write" mode.*
 *Add each guest's name in the Python list to the file one by one.*
 
-##generate_employee.py
+## generate_employee.py
 
 **Purpose** : The script reads a CSV file containing a list of employees in  organization, counts how many people are in each department, and then generates a report using this information.
