@@ -1,14 +1,15 @@
 to  open file in python
-    variableName = open("filePath")   ==> here i  create file object and use methode like varableName.read, etc ..
+    variableName = open("filePath/filename")   ==> here file object is created and methode is used , like varableName.read, etc ..
     variableName.readline() allow to read one line a time in the file
-    variableName.read() read from the current line tik the end
+    variableName.read() read from the current line to the end
     variableName.close()
     # you can work with file everywhere in the script
 
 To avoid forget close file use :
     with open("filePath") as variableName:
         ...statement...
-        # all work with file is restricted in this bloc
+    # all work with file is restricted in this bloc
+
 .stripe() : To remove all white space (tabs, etc)
 .sort() : # we can sort line in a file
 
@@ -34,6 +35,19 @@ os.path.join(dir, file ) return dir/file
 os.rename('old', 'new')
 os.remove('filePath')
 
-
-
 // To create use write like above
+
+
+//MANIPULATE CSV
+import csv before
+csv.reader() ==> parse a file content using csv module (read like csv based content)
+
+//REGEX
+import re module  before
+ grep -i = to make search not case sensitive
+ a dot (.) matches any character
+ ^ indicate the beginning ===> grep ^pattern
+ $ indicate the end ===> grep pattern$
+
+ re.search(r"pattern", "the_word") ===> to store in a variable
+  re.search(r"pattern", "the_word", re.IGNORECASE) ===> to ignore case sensitivity
