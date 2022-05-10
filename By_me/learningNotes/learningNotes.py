@@ -50,4 +50,23 @@ import re module  before
  $ indicate the end ===> grep pattern$
 
  re.search(r"pattern", "the_word") ===> to store in a variable
-  re.search(r"pattern", "the_word", re.IGNORECASE) ===> to ignore case sensitivity
+ re.search(r"pattern", "the_word", re.IGNORECASE) ===> to ignore case sensitivity
+
+ character classes ==> [] = Define range of pattern to match
+           re.search(r"[Pp]ython", "python")
+           [a-z] = any lowercase letter from a to z (but match only one character)
+           [A-Z]
+           [0-9]
+           or [a-zA-Z0-9] but always match only one
+           [^a-z] not match (Different from ^ where it indicate the beginning, here it is in sqaure Bracket)
+ | to match ethei one of the pattern ==> re.search(r"pattern1|pattern2", "the_word")
+ To find more than one pattern use findall function ==> re.findall()
+ Repetition qualifier
+    To match more than once use * ==> re.search(r"p[a-z]*n", "python")
+    To match a character more time in the search, use + after the character ==> re.search(r"o+", "good")
+    To make a character search optional put ? after it ==> re.search(r"R?ight", "ight")
+    To match special character, use \
+    \w ==> match any alphanum character(eg:letters, numbers, and underscores)
+    \d ===> digit
+    \s ===> white spaces
+    learn more at : www.regex101.com
