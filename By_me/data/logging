@@ -1,0 +1,9 @@
+May 23 20:51:39 alilikpo-Revolve org.gnome.Nautilus[3103]: [h264 @ 0x7fbbfc2d73e0] get_buffer() failed
+May 23 20:51:39 alilikpo-Revolve org.gnome.Nautilus[3103]: [h264 @ 0x7fbbfc2d73e0] thread_get_buffer() failed
+May 23 20:51:39 alilikpo-Revolve org.gnome.Nautilus[3103]: [h264 @ 0x7fbbfc2d73e0] decode_slice_header error
+May 23 20:51:39 alilikpo-Revolve org.gnome.Nautilus[3103]: [h264 @ 0x7fbbfc2d73e0] no frame!
+May 23 20:52:35 alilikpo-Revolve nautilus[2437]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 23 20:52:36 alilikpo-Revolve systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 4126 (nautilus)
+May 23 20:52:36 alilikpo-Revolve systemd[1]: Mounting Arbitrary Executable File Formats File System...
+May 23 20:52:36 alilikpo-Revolve systemd[1]: Mounted Arbitrary Executable File Formats File System.
+May 23 20:53:18 alilikpo-Revolve nautilus[2437]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)

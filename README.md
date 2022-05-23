@@ -8,20 +8,15 @@ Here are all the codes I write during my IT automation learning journey.
 ## system_checks.py
 
 **Purpose** : Script to check system states (disks, cpu_usage, etc.)
-
 **Highlight** : working with OS
 
 
 ## hotels_guests_management.py
 
 **Purpose** : Program to record guests at hotel
-
 **Highlight** : working with file
-
 - Register new guests
-
 - Remove leaving guests
-
 - Verify currently chech in guests
 
 
@@ -33,8 +28,16 @@ Here are all the codes I write during my IT automation learning journey.
 *Open the file once again in "write" mode.*
 *Add each guest's name in the Python list to the file one by one.*
 
+
+
 ## generate_employee.py
 
-**Purpose** : The script reads a CSV file containing a list of employees in  organization, counts how many people are in each department, and then generates a report using this information.
-
+**Purpose** : The script reads a CSV file containing a list of employees in  organization, counts how many people are in each department, and then generates a report using this information
 **Highlight** : working with csv file
+
+
+
+## check-related-error.py
+
+**Purpose** : The script reads a log file and process it (using regex) and insights of it, according to the pattern specified.  
+**Highlight** : regex, managing data and processes
