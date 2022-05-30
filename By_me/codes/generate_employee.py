@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
-
+import sys
 import csv
+
+#populate data
+source  = sys.argv[1]
+report = sys.argv[2]
 
 #Read employee data and store it into list of dictionary
 def read_employees(csv_file_location):
@@ -11,7 +15,7 @@ def read_employees(csv_file_location):
         employee_list.append(data)
     return employee_list
 
-employee_list = read_employees('<filePath>')
+employee_list = read_employees(source)
 
 
 #Process employee data and return dictionary in form of Department:number of employees
@@ -27,10 +31,10 @@ def process_data(employee_list):
 dictionary = process_data(employee_list)
 
 
-#generate report file 
+#generate report file
 def write_report(dictionary, report_file):
     with open(report_file, "w+") as f:
         for k in sorted(dictionary):
             f.write(str(k)+':'+str(dictionary[k])+'\n')
 
-write_report(dictionary, '<file_path>')
+write_report(dictionary, report)
